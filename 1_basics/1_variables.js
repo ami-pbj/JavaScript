@@ -25,12 +25,12 @@ Var : Prefer not to use var because of issue in block scope and functional scope
 
 
 // Overwrite same variables
-// Let can be overwrites
+// Let can be overwrite
 customerEmail = "overwrite@example.com"
 console.log(customerEmail);
 console.log(typeof customerEmail);
 
-// Var can be overwrites
+// Var can be overwrite
 customerPassword = "overwritePassword"
 console.log(customerPassword);
 console.log(typeof customerPassword);
